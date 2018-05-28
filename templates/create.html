@@ -1,0 +1,34 @@
+<!DOCTYPE html Public "-//W3C//DTD XHTML 1.0 TRANSITIONAL/en"
+"http://www.w3.org/TR/xhtml/DTD/xhtml1-transitional.dtd" >
+
+<html>
+<head>
+	<style type="text/css">
+	#signup { 	border: 1px solid black;
+				position:absolute;
+				top:25%;
+				left:50%;
+				padding:20px;
+				margin:20px
+			}
+	input 	{		input-align:right
+			}
+	</style>
+<title> welcome</title></head>
+
+<body>
+	<h1 style="text-align:center" >Share Food</h1>
+	<form id="signup">Name:<input type="text" name="name" placeholder="Enter Name" align="right" width="48" height="48" required><br />
+		<p>Gender:Male:<input type="radio" name="sex" value="male" align="right" > Female:<input type="radio" name="sex" value="female" align="right" required><br /></p>
+		<p>Email:<input type="email" name="email" placeholder="Email" align="right" width="48" height="48"><br /></p>
+		<p>Phone:<input type="tel" maxlength="10" name="phone" placeholder="Phone" align="right" width="48" height="48" required><br /></p>
+		<p>Password:<input type="password" name="pass" placeholder="Password" maxlength="8" align="right" width="48" height="48" required><br /></p>
+		<p>Re-Enter Password:<input type="password" name="re-pass" placeholder="Re-password" maxlength="8" align="right" width="48" height="48" required></p>
+		<p>Address:<input type="text" name="address" placeholder="Address" style="align:right" required><br /></p>
+		<p><input type="submit" align="center" value="Signup" ></p>
+		<label> 
+			<input type="checkbox" checked="checked" name="remember"> Remember me
+		</label>
+	</form>
+</body>
+</html>
