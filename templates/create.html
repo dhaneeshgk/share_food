@@ -1,0 +1,38 @@
+<!DOCTYPE html Public "-//W3C//DTD XHTML 1.0 TRANSITIONAL/en"
+"http://www.w3.org/TR/xhtml/DTD/xhtml1-transitional.dtd" >
+
+<html>
+<head>
+	<style type="text/css">
+	#signup { 	border: 1px solid black;
+				position:absolute;
+				top:15%;
+				left:35%;
+				padding:20px;
+				margin:20px
+			}
+					
+	.subm input	{	margin-left:20em;
+				}
+	</style>
+<title> Create Profile</title></head>
+
+<body>
+	<h1 style="text-align:center" >Share Food</h1>
+	<form id="signup" >
+		<h3 style="text-align:center">Sign Up</h3>
+		<table cellpadding="10px" cellspacing="10">	
+        <tr><td>Name:</td><td></label><input type="text" name="name" placeholder="Enter Name" required></td></tr>
+		<tr><td>Gender:<td>Male:<input type="radio" name="sex" value="male" required> Female:<input type="radio" name="sex" value="female" required></td>
+		<tr><td>Email:</td><td><input type="email" name="email" placeholder="Email" ></td></tr>
+		<tr><td>Phone:</td><td><input type="tel" maxlength="10" name="phone" placeholder="Phone" required></td></tr>
+		<tr><td>Password:</td><td><input type="password" name="pass" placeholder="Password" maxlength="8" required></td></tr>
+		<tr><td>Re-Enter Password:</td><td><input type="password" name="re-pass" placeholder="Re-password" maxlength="8" required></td></tr>
+		<tr><td>Address:</td><td><input type="text" name="address" placeholder="Address" required></td></tr>
+		
+		<tr><td><input  type="checkbox" checked="checked" name="remember"> Remember me</td></tr>
+		<tr><td><input type="submit" align="center" value="Back" ></td>
+		<td><input type="submit" align="center" value="Signup" ></td></tr>
+		</table>
+</body>
+</html>
