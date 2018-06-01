@@ -1,0 +1,48 @@
+
+.subm input	{	margin-left:20em;
+			}
+.up {	text-align:center
+	}
+.h  {	text-align:center;
+		padding:1em;
+		border:1px solid silver;
+		background-color:silver;
+	}
+li {
+  display: inline;
+  padding:5px;
+  
+  }
+.pad { padding:20px;
+}
+.left{	float:left;
+}
+.we {	align-items:center;
+	}
+	 
+.btn:hover{
+		color: #ffffff;
+		background-color: black;
+		cursor: pointer;
+}
+.btn-right{
+	float:right;
+	margin-right:20px;
+}
+.btn-right:hover {
+  color: #ffffff;
+  background-color: black;
+  cursor: pointer;
+}
+.btn-left{
+	float:left;
+	margin-left:20px;
+}
+.btn-left:hover {
+  color: #ffffff;
+  background-color: black;
+  cursor: pointer;
+}
+#img { background-image:url(1.jpg);
+		background-size:100% 100%;
+}
