@@ -3,33 +3,40 @@
 
 <html>
 <head>
-	<style type="text/css">
+<link rel="stylesheet" type="text/css" href="main.css">
+<style type="text/css">
 	#login { border: 1px solid black;
 				position:absolute;
 				top:15%;
 				left:35%;
 				padding:20px;
-				margin:20px}
+				margin:20px;
+				background-color:grey;}
 	.up { text-align:center
 		}
 	</style>
 <title> Welcome</title></head>
 
-<body>
-	<h1 style="text-align:center" style="background-color:blue;">Share Food</h1>
+<body id="img">
+	<h1 class="h">Share Food</h1>
 	<form id="login">
 	<h3 style="text-align:center">Sign In</h3>
 		<table cellpadding="10px" cellspacing="10">
-			<tr><td>Email or Phone No.</td><td><input type="text" placeholder="Text"/ required></td></tr>
-			<tr><td>Password</td><td><input type="password" name="password" maxlength="8"/ placeholder="Password" required></td></tr>
+			<tr><td>Email or Phone No.:</td><td><input type="text" placeholder="Text"/ required></td></tr>
+			<tr><td>Password:</td><td><input type="password" name="password" maxlength="8"/ placeholder="Password" required></td></tr>
 		</table>	
 			<div class="up">
-			<input type="submit" value="login">
-			<h4>or</h4>
-			<p><input type="submit" value="Sign up" ><br /></p>
+			<button class="btn" type="button">login</button>
+			<h4>Don't have an account?</h4><a href="create.html"><button class="btn" type="button">Create Account</button></a>
 			</div>
-			<a href="forgot.html">Forgot Password?</a> <br />
-			<a href="">About Us</a><br /><a href="">Help</a><br /><a href="">Invite Friends</a>
+			
+				<ul>
+					<li><a href="forgot.html">Forgot Password?</a></li>
+					<li><a href="">About Us</a></li>
+					<li><a href="">Help</a></li>
+					<li><a href="">Invite Friends</a></li>
+				</ul>
+		
 	</form>
 </body>
 </html>
