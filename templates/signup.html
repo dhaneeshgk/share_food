@@ -3,40 +3,28 @@
 
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="main.css">
-<style type="text/css">
-	#login { border: 1px solid black;
-				position:absolute;
-				top:15%;
-				left:35%;
-				padding:20px;
-				margin:20px;
-				background-color:grey;}
-	.up { text-align:center
-		}
-	</style>
-<title> Welcome</title></head>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="main.css">
+<title> Welcome</title>
+</head>
 <body id="img">
 	<h1 class="h">Share Food</h1>
-	<form id="login">
-	<h3 style="text-align:center">Sign In</h3>
-		<table cellpadding="10px" cellspacing="10">
-			<tr><td>Email or Phone No.:</td><td><input type="text" placeholder="Text"/ required></td></tr>
-			<tr><td>Password:</td><td><input type="password" name="password" maxlength="8"/ placeholder="Password" required></td></tr>
-		</table>	
+	<div id="body" >
+		<h3 style="text-align:center">Sign In</h3>
+		<form action="" method="get">
+			<p class="pa">Email or Phone No.:<a class="btn-right"><input type="text" placeholder="Text" name="text" value="{{request.form.text}}" required></a></p>
+			<p class="pa">Password:<a class="btn-right"><input type="password" name="password" maxlength="8" placeholder="Password" value="{{request.form.password}}" required></a></p>
 			<div class="up">
-			<button class="btn" type="button">login</button>
-			<h4>Don't have an account?</h4><a href="create.html"><button class="btn" type="button">Create Account</button></a>
+				<button class="btn" type="submit">login</button>
+				<h4>Don't have an account?</h4><a href="create.html" ><button class="btn" type="button">Create Account</button></a>
 			</div>
 			
-				<ul>
-					<li><a href="forgot.html">Forgot Password?</a></li>
-					<li><a href="">About Us</a></li>
-					<li><a href="">Help</a></li>
-					<li><a href="">Invite Friends</a></li>
-				</ul>
-		
-	</form>
+				<p style="text-align:center"><a href="forgot.html" class="p">Forgot Password?</a>
+				<a href="" class="p">About Us</a>
+				<a href="help.html" class="p">Help</a>
+				<a href="invite.html" class="p">Invite Friends</a></p>
+			
+		</form>
+	</div>
 </body>
 </html>

@@ -3,36 +3,26 @@
 
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style type="text/css">
-	#signup { 	border: 1px solid black;
-				position:absolute;
-				top:15%;
-				left:35%;
-				padding:20px;
-				margin:20px;
-				background-color:grey;
-			}
-	.subm input	{	margin-left:20em;
-				}				
-	</style>
 	<link rel="stylesheet" type="text/css" href="main.css">
 <title> Create Profile</title></head>
 <body id="img">
 	<h1 style="text-align:center" class="h">Share Food</h1>
-	<form id="signup"  >
+	<div id="body"  >
 		<h3 style="text-align:center">Sign Up</h3>
-		<table cellpadding="10px" cellspacing="10">	
-        <tr><td>Name:</td><td></label><input type="text" name="name" placeholder="Enter Name" required></td></tr>
-		<tr><td>Gender:<td>Male:<input type="radio" name="sex" value="male" required> Female:<input type="radio" name="sex" value="female" required></td>
-		<tr><td>Email:</td><td><input type="email" name="email" placeholder="Email" ></td></tr>
-		<tr><td>Phone:</td><td><input type="tel" maxlength="10" name="phone" placeholder="Phone" required></td></tr>
-		<tr><td>Password:</td><td><input type="password" name="pass" placeholder="Password" maxlength="8" required></td></tr>
-		<tr><td>Re-Enter Password:</td><td><input type="password" name="re-pass" placeholder="Re-password" maxlength="8" required></td></tr>
-		<tr><td>Address:</td><td><input type="text" name="address" placeholder="Address" height="3px" required></td></tr>
-		<tr><td><input  type="checkbox" checked="checked" name="remember">Remember me</td></tr>
-		</table>
-		<a href="signup.html"><button type="button" class="btn-left" >Back</button>
-		<button type="button" class="btn-right" >Create</button>
-		
+		<form action="" method="post"> 	
+			<p class="pa">Name:<a class="btn-right"><input type="text" name="name" placeholder="Enter Name" required></a></p>
+			<p class="pa">Gender:<a class="btn-right">Male:<input type="radio" name="sex" value="male" required> Female:<input type="radio" name="sex" value="female" required></a></p>
+			<p class="pa">Email:<a class="btn-right"><input type="email" name="email" placeholder="Email" ></a></p>
+			<p class="pa">Phone:<a class="btn-right"><input type="tel" maxlength="10" name="phone" placeholder="Phone" required></a></p>
+			<p class="pa">Password:<a class="btn-right"><input type="password" name="pass" placeholder="Password" maxlength="8" required></a></p>
+			<p class="pa">Re-Enter Password:<a class="btn-right"><input type="password" name="re-pass" placeholder="Re-password" maxlength="8" required></a></p>
+			<p class="pa">Address:<a class="btn-right"><input type="text" name="address" placeholder="Address" height="10px" required></a></p>
+			<p class="pa"><input  type="checkbox" checked="checked" name="remember">Remember me</a></p>
+			<a href="signup.html"><button type="button" class="btn-left" >Back</button>
+			<button type="submit" class="btn-right" >Create</button>
+		</form>
+	</div>
 </body>
 </html>

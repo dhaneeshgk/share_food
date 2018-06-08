@@ -2,33 +2,21 @@
 "http://www.w3.org/TR/xhtml/DTD/xhtml1-transitional.dtd" >
 
 <html>
-<head>
-<style type="text/css">
-	#forgot { 	border: 1px solid black;
-				position:absolute;
-				top:15%;
-				left:30%;
-				padding:20px;
-				margin:20px;
-				background-color:grey;
-			}
-	.
-	</style>
+<head>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="main.css">
 <title>Forgot Password</title></head>
 
 <body id="img">
 	<h1 style="text-align:center" class="h">Share Food</h1>
-	<form id="forgot">
+	<div id="body">
 	<h3 style="text-align:center">Forgot Password</h3>
-	
-		<table cellpadding="10px" cellspacing="10">
-			<tr><td>Email</td><td><input type="text" name="email" placeholder="email" required></td></tr>
-			<tr><td>Q1.What is the name of the first school?</td><td><input type="text" name="ansq1" placeholder="Answer Q1" ></td></tr>
-			<tr><td>Q2.What is your favorite hobbie?</td><td><input type="text" name="ansq2" maxlength="8"/ placeholder="Answer Q2" ></td></tr>
-			<tr><td>New Password</td><td><input type="password" name="newpassword" maxlength="8"/ placeholder="Password" required></td></tr>
-		</table>
-	<a href="signup.html"><button type="button" class="btn-left" >Back</button><button class="btn-right" type="button">Save</button>
+	<form>
+		<p class="pa" for="email" >Email or Phone<a class="btn-right"><input type="text" name="email" placeholder="Email" required></a></p>
+		<p class="pa" for="ansq1" >Q1.What is the name of the first school?<a class="btn-right"><input type="text" name="ansq1" placeholder="Answer Q1" ></a></p>
+		<p class="pa" for="ansq2" >Q2.What is your favorite hobbie?<a class="btn-right"><input type="text" name="ansq2" maxlength="8" placeholder="Answer Q2" ></a></p>		
 	</form>
+	<p class="pa"><a href="signup.html"><button type="button" class="btn-left" >Back</button><button class="btn-right" type="button">Save</button></p>
+	</div>
 </body>
 </html>

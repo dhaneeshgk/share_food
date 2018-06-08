@@ -1,48 +1,66 @@
-
+#body	 {	width:500px;
+			margin:auto;
+			background-color:grey;
+			margin-top:50px;
+			padding:10px 60px 20px 60px;
+		}
+div {	border: 1px solid black;
+}
 .subm input	{	margin-left:20em;
 			}
-.up {	text-align:center
+.up {	text-align:center;
+		padding:5px;
 	}
 .h  {	text-align:center;
 		padding:1em;
 		border:1px solid silver;
 		background-color:silver;
 	}
-li {
-  display: inline;
-  padding:5px;
-  
-  }
-.pad { padding:20px;
+.txt	{ 	text-decoration:none;
+			color:black;
+		}
+.txt:hover	{ color:white;
+				background-color:black;
 }
+li {
+  display:list-item;
+  padding:2px;
+}
+.p{	padding:4px;
+  }
+.pad { padding-bottom:70px;
+		width:500px;
+}
+.pa	{	padding:3px;
+	}
 .left{	float:left;
 }
 .we {	align-items:center;
 	}
 	 
-.btn:hover{
-		color: #ffffff;
-		background-color: black;
-		cursor: pointer;
-}
-.btn-right{
-	float:right;
-	margin-right:20px;
-}
-.btn-right:hover {
-  color: #ffffff;
-  background-color: black;
-  cursor: pointer;
-}
-.btn-left{
-	float:left;
-	margin-left:20px;
-}
-.btn-left:hover {
-  color: #ffffff;
-  background-color: black;
-  cursor: pointer;
-}
+.btn:hover{	color: #ffffff;
+			background-color: blue;
+			cursor: pointer;
+		}
+.btn-right{	float:right;
+			margin-right:20px;
+		}
+.btn-right:hover {	color: #ffffff;
+					background-color: black;
+					cursor: pointer;
+				}
+.btn-left{	float:left;
+			margin-left:20px;
+		}
+.btn-left:hover {	color: #ffffff;
+					background-color: black;
+					cursor: pointer;
+				}
 #img { background-image:url(1.jpg);
 		background-size:100% 100%;
-}
+	}
+.img1{
+	height:100px;
+	float:left;
+	padding:4px;
+	}
